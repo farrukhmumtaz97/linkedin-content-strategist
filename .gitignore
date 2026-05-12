@@ -1,0 +1,29 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Personal data (never commit your filled brand profile)
+# Rename brand-profile.md to brand-profile.personal.md to keep it local
+*.personal.md
+
+# Logs
+*.log
+
+# Node (if anyone builds tooling on top)
+node_modules/
+npm-debug.log*
+
+# Python (if anyone builds tooling on top)
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
